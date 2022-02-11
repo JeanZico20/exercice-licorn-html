@@ -1,0 +1,110 @@
+body{
+	background:url('/C:/Users/ODEFI-15/Desktop/background.png');
+}
+h1{
+	color: white;
+	text-align: center;
+	margin: 5px;
+	font-family: 'Courgette', cursive;
+}
+
+/* barre de navigation */
+nav{
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #C55394;
+	position: sticky;
+	top: 0;
+}
+nav .onglets{
+	padding: 15px;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+
+}
+nav .onglets a{
+	justify-content: space-between;
+	text-align: center;
+	margin-right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	background: #EB43A3;
+	padding: 15px;
+}
+/* Fin de la barre de navigation */
+
+/* Header */
+header{
+	color: #C55394;
+	text-align: center;
+	background:url('/C:/Users/ODEFI-15/Desktop/rainbow.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 150px;
+}
+h2{
+	margin-top: 10px;
+	font-family: 'Courgette', cursive;
+	top: 10px;
+}
+
+/* Fin du header */
+
+h4{
+	
+	color: #EB43A3;
+}
+
+.text{
+	border-radius: 5px 5px;
+	padding: 50px;
+	box-shadow: 0px 3px 20px rgb(36, 34, 34);
+	background-color: white;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: -150px;
+	margin-bottom: 100px;
+}
+div figure{
+	display: inline-block;
+	margin: 0px auto;
+	cursor: pointer;
+}
+	
+figcaption{
+	color: white;
+	bottom: 0;
+	background-color: black;
+	opacity: 75%;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+h5{
+	font-family: 'Courgette', cursive;
+	color: #EB43A3;
+}
+button{
+	background-color: #C55394;
+	color: white;
+	border-radius: 5px;
+	border-style: hidden;
+}
+.autocollant{
+	margin-right: 200px;
+	float: right;
+}
+footer{
+	background-color: #E577B5;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	text-align: right;
+}
